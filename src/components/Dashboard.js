@@ -178,6 +178,7 @@ const Dashboard = () => {
     setIncome(0);
     setExpenses(0);
     setCurrentBalance(0);
+    setTransactions([]);
   }
   const cardStyle = {
     boxShadow: "0px 0px 30px 8px rgba(227, 227, 227, 0.75)",
